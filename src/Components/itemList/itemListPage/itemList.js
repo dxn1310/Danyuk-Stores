@@ -1,9 +1,5 @@
 import Footer from '../../landing/landing_components/Footer';
 import Header from '../../landing/landing_components/Header';
-import { Button } from '@chakra-ui/react';
-import { NavLink as Link } from 'react-router-dom';
-import { useEffect } from 'react';
-import { Spinner } from '@chakra-ui/react'
 import "../itemListPage/itemList.css"
 import AccordionType from "../itemListComponents/AccordionType";
 import img from "../../landing/images/img1.jpg";

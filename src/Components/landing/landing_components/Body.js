@@ -7,8 +7,11 @@ export default function Body() {
 
             <Link to="itemList">
                 <button className="menu-button" >
-                    <div className="button-container">Item List</div>
+                    {/* <div className="button-container">Item List</div> */}
                 </button>
+                <div style={{width:"100%",display:"flex",justifyContent:"center",marginTop:"1rem"}}>
+                    Click Above To View Item list
+                </div>
             </Link>
 
         </div>

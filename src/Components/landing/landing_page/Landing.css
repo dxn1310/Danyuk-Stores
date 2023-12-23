@@ -86,15 +86,15 @@
   .menu-button {
     display: flex;
     color: white;
-    background-image: url("../images/menu.jpg");
-    background-size: cover;
-    width: 270px;
+    background-image: url("../images/danyuk.png");
+    background-size: contain;
+    width: 200px;
     height: 200px;
     border-radius: 15px;
     margin: 0px auto;
     color: white;
     font-weight: bold;
-    position: relative;
+    /* position: relative; */
     cursor: pointer;
   }
   
