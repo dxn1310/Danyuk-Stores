@@ -1,0 +1,22 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-and-name{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo {
+    width: max-content;
+}
+
+.name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
