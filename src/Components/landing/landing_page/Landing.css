@@ -40,31 +40,6 @@
     background-color: black;
   }
   
-  .header {
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0px 3px 7px #c4c4c4;
-    margin-bottom: 30px;
-  }
-  
-  .logo-and-name {
-    display: flex;
-    margin: 5px;
-    align-items: center;
-  }
-  
-  .logo {
-    height: 40px;
-    width: 40px;
-  }
-  
-  .name {
-    margin-left: 15px;
-    font-weight: bold;
-  }
-  
   .order-type-select-button {
     display: flex;
     margin: 5px;
@@ -128,7 +103,7 @@
   }
   
   .footer h1 {
-    font-size: larger;
+    font-size: 1.5rem;
     font-weight: bold;
   }
   
@@ -154,4 +129,8 @@
     height: 25px;
     margin-right: 15px;
     object-fit: cover;
+  }
+
+  .address{
+    font-weight: 400;
   }

@@ -8,11 +8,11 @@ export default function Footer() {
             <h1>Danyuk Stores</h1>
             <div className="location">
                 <img className="location-icon" src={location}/>
-                <div className="address">Opp Sri Padmavathi Mahila University, Tirupati.</div>
+                <div className="address"><b>Opp Sri Padmavathi Mahila University, Tirupati.</b></div>
             </div>
             <div className="phone">
                 <img className="phone-icon" src={phone}/>
-                <div className="phone-number">9844080328,9743120289</div>
+                <div className="phone-number"><b>9844080328,9743120289</b></div>
             </div>
         </div>
     );

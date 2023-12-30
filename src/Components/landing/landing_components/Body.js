@@ -10,7 +10,7 @@ export default function Body() {
                     {/* <div className="button-container">Item List</div> */}
                 </button>
                 <div style={{width:"100%",display:"flex",justifyContent:"center",marginTop:"1rem"}}>
-                    Click Above To View Item list
+                    <b>Click Above To View Item list</b>
                 </div>
             </Link>
 

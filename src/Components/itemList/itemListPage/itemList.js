@@ -3,27 +3,17 @@ import Header from '../../landing/landing_components/Header';
 import "../itemListPage/itemList.css"
 import AccordionType from "../itemListComponents/AccordionType";
 import img from "../../landing/images/img1.jpg";
+import "../itemListPage/itemList.css"
 
 export default function itemList() {
 
-  const types = ["Millet Products","Desi Rice"];
+  const types = ["Millet Products","Desi Rice","Noodles","Cold Pressed Oils","Organic Farm Produce"];
   const Data = {
     "Millet Products" : [
       {
         name : "MP Item1",
         pic : img,
         data : "qwertyuiop[asdfghjklzxcvbnm"
-      },
-
-      {
-        name : "MP Item2",
-        pic : img,
-        data : "qwertyuiop[asdfghjklzxcvbnm3dedeeevreverbvtr"
-      },
-      {
-        name : "MP Item3",
-        pic : img,
-        data : "qwertyudrvrevreveiop[asdfghjklzxcvbnm"
       },
     ],
 
@@ -33,16 +23,29 @@ export default function itemList() {
         pic : img,
         data : "qwertyuiop[asdfghjklzxcvbnm"
       },
+    ],
 
+    "Noodles" : [
       {
-        name : "MP Item2",
+        name : "MP Item1",
         pic : img,
-        data : "qwertyuiop[asdfghjklzxcvbnm3dedeeevreverbvtr"
+        data : "qwertyuiop[asdfghjklzxcvbnm"
       },
+    ],
+
+    "Cold Pressed Oils" : [
       {
-        name : "MP Item3",
+        name : "MP Item1",
         pic : img,
-        data : "qwertyudrvrevreveiop[asdfghjklzxcvbnm"
+        data : "qwertyuiop[asdfghjklzxcvbnm"
+      },
+    ],
+
+    "Organic Farm Produce" : [
+      {
+        name : "MP Item1",
+        pic : img,
+        data : "qwertyuiop[asdfghjklzxcvbnm"
       },
     ],
 
@@ -52,13 +55,15 @@ export default function itemList() {
 
     return (
         <div className='page-conatainer'>
-            <div>
+          <div className='itemList-outer'>
                 <Header />
-                <div>
-                  The various Items we sell are...
+                <div className='ItemList-body'>
+                  <div>
+                    <b>The various Items we sell are...</b>
+                  </div>
+                  <AccordionType types = {types} Data={Data}/>
                 </div>
-                <AccordionType types = {types} Data={Data}/>
-            </div>
+          </div>
             <Footer />
         </div>
     );

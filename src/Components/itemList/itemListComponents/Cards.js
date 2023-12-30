@@ -16,7 +16,7 @@ import {
 export default function Cards({itemName,itemPic,itemData}) {
   const { isOpen, onOpen, onClose } = useDisclosure()
   return (
-    <div className='cards-outer' style={{width:"80%"}}>
+    <div className='cards-outer' style={{width:"90%"}}>
       <Card
         direction={{ base: 'column', sm: 'row' }}
         overflow='hidden'
