@@ -4,67 +4,26 @@ import "../itemListPage/itemList.css"
 import AccordionType from "../itemListComponents/AccordionType";
 import img from "../../landing/images/img1.jpg";
 import "../itemListPage/itemList.css"
+import { data } from '../../Data/data.js';
 
 export default function itemList() {
 
-  const types = ["Millet Products","Desi Rice","Noodles","Cold Pressed Oils","Organic Farm Produce"];
-  const Data = {
-    "Millet Products" : [
-      {
-        name : "MP Item1",
-        pic : img,
-        data : "qwertyuiop[asdfghjklzxcvbnm"
-      },
-    ],
-
-    "Desi Rice" : [
-      {
-        name : "MP Item1",
-        pic : img,
-        data : "qwertyuiop[asdfghjklzxcvbnm"
-      },
-    ],
-
-    "Noodles" : [
-      {
-        name : "MP Item1",
-        pic : img,
-        data : "qwertyuiop[asdfghjklzxcvbnm"
-      },
-    ],
-
-    "Cold Pressed Oils" : [
-      {
-        name : "MP Item1",
-        pic : img,
-        data : "qwertyuiop[asdfghjklzxcvbnm"
-      },
-    ],
-
-    "Organic Farm Produce" : [
-      {
-        name : "MP Item1",
-        pic : img,
-        data : "qwertyuiop[asdfghjklzxcvbnm"
-      },
-    ],
-
-
-  }
-
-
-    return (
-        <div className='page-conatainer'>
-          <div className='itemList-outer'>
-                <Header />
-                <div className='ItemList-body'>
-                  <div>
-                    <b>The various Items we sell are...</b>
-                  </div>
-                  <AccordionType types = {types} Data={Data}/>
+  const types = ["Millet Products","Desi Rice","Noodles","Cold Pressed Oils",];
+  const Data = data;
+  
+  return (
+      <div className='page-conatainer'>
+        <div className='itemList-outer'>
+              <Header />
+              <div className='ItemList-body'>
+                <div> 
+                  <b>The various Items we sell are...</b>
                 </div>
-          </div>
-            <Footer />
+                <AccordionType types = {types} Data={Data}/>
+              </div>
         </div>
-    );
+          <Footer />
+      </div>
+  );
+
 }

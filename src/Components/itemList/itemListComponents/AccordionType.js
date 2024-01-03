@@ -12,10 +12,6 @@ import AccordianMenu from './AccordianMenu.js';
 import img from "../../landing/images/img1.jpg";
 
 export default function AccordionType({types,Data}) {
-    const itemName = "Hello";
-    const itemPic = {img};
-    const itemData = "my name is Dhanish Siddharth euifberc bb erbrebrupburburbberq;bekvbjbajckjkab;reuivv erbvab jk curye a;uis.hdciblurevyv e;v"
-
   return (
     <div>
         <Accordion defaultIndex={[]} allowToggle width={"100%"} marginTop={"2rem"}>

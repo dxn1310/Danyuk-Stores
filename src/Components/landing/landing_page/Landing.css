@@ -61,7 +61,7 @@
   .menu-button {
     display: flex;
     color: white;
-    background-image: url("../images/danyuk.png");
+    background-image: url("../images/danyuk1.png");
     background-size: contain;
     width: 200px;
     height: 200px;
@@ -100,6 +100,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
   }
   
   .footer h1 {
@@ -133,4 +134,8 @@
 
   .address{
     font-weight: 400;
+  }
+
+  .landing-inner{
+    width: 100%;
   }

@@ -4,14 +4,15 @@ import Header from '../landing_components/Header';
 import Body from '../landing_components/Body';
 import Footer from '../landing_components/Footer';
 import "./Landing.css";
+import Slides from '../landing_components/Slides';
 
 
 export default function Landing() {
     return (
         <div className='page-conatainer'>
-            <div>
+            <div className='landing-inner'>
                 <Header/>
-                <Slideshow/>
+                <Slides/>
                 <Body/>
             </div>
             <Footer/>

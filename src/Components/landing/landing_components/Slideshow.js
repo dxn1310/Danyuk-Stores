@@ -3,23 +3,11 @@ import img1 from "../images/img1.jpg"
 import img2 from "../images/img2.jpg"
 import img3 from "../images/img3.jpg"
 
-// console.log(images)
+
 const colors = ["#0088FE", "#00C49F", "#FFBB28"];
 const delay = 2500;
 const imageSrc = [img1, img2, img3];
-// export default function Slideshow() {
-//     return (
-//     <div className="slideshow">
-//         <div className="slideshowSlider">
-//         {imageSrc.map((image, index) => (
-//             <div className="slide" >
-//                 {/* <img key={index} src={image} className="image-todays-specials"/> */}
-//             </div>))}
-//         </div>
-//     </div>
 
-//     );
-// }
 
 
 
