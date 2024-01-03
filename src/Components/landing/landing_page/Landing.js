@@ -12,7 +12,7 @@ export default function Landing() {
         <div className='page-conatainer'>
             <div className='landing-inner'>
                 <Header/>
-                <Slides/>
+                <Slideshow/>
                 <Body/>
             </div>
             <Footer/>
