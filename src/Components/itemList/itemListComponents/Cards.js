@@ -39,7 +39,7 @@ export default function Cards({itemName,itemPic,itemData,itemPrice}) {
                 <ModalCloseButton />
                 <ModalBody>
                 <div className='card-img-outer'>
-                  <img className='card-img' src={itemPic}/>
+                  <img className='card-img1' src={itemPic}/>
                 </div>
                 
                 <div className='card-body'>

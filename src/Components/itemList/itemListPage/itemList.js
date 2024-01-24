@@ -6,9 +6,12 @@ import img from "../../landing/images/img1.jpg";
 import "../itemListPage/itemList.css"
 import { data } from '../../Data/data.js';
 
+import ItemMenu from '../itemMenu/itemMenu.js';
+
 export default function itemList() {
 
-  const types = ["Millet Products","Desi Rice","Noodles","Cold Pressed Oils",];
+  const category = ["Millet Products","Desi Rice","Noodles","Cold Pressed Oils"]
+  const types = ["Millet Noodles","Millet Pasta","Millet Vermicelli","Millet Flakes","Millet Rice","Desi Rice","Noodles","Cold Pressed Oils",];
   const Data = data;
   
   return (
@@ -19,7 +22,8 @@ export default function itemList() {
                 <div> 
                   <b>The various Items we sell are...</b>
                 </div>
-                <AccordionType types = {types} Data={Data}/>
+                {/* <ItemMenu types = {types} Data={Data} category={category}/> */}
+                <AccordionType types = {types} Data={Data} category={category}/>
               </div>
         </div>
           <Footer />

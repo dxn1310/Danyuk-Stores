@@ -10,6 +10,11 @@
     
 }
 
+.card-img{
+    height: 205px;
+    width: 160px;
+}
+
 .card-img-outer{
     width: 100%;
 }
@@ -20,13 +25,12 @@
 
 .card-price{
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 500;
-    /* margin-top: 1rem; */
 }
 
 .card-title{
-    font-size: 1.25rem;
+    font-size: 1.10rem;
     font-weight: 700;
 }
 
